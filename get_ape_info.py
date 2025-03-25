@@ -10,7 +10,7 @@ contract_address = Web3.to_checksum_address(bayc_address)
 with open('ape_abi.json', 'r') as f:
     abi = json.load(f)
 
-api_url = "https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID"  # ← insert your actual project ID
+api_url = "https://mainnet.infura.io/v3/8054c6b6305148d7be6d257adef7a4e6"
 provider = HTTPProvider(api_url)
 web3 = Web3(provider)
 
